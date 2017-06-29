@@ -1,0 +1,23 @@
+.productRow {
+  margin-top:20px;
+  height: 50px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.productRow:hover {
+background-color: #EEEEEE;
+}
+
+.productRow input {
+  height: 40px;
+  width: 100px;
+}
+
+.productRow .delete,.productRow .update  {
+  display: none;
+}
+
+.productRow:hover .delete, .productRow:hover .update {
+  display: block;
+}
